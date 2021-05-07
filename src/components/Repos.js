@@ -1,16 +1,13 @@
 import React from "react";
-import useContext from "react";
-import styled from "styled-components";
-import { GrLanguage } from "react-icons/gr";
 import { AiFillStar } from "react-icons/ai";
 
 import { GitHubCustomHook } from "../context/context";
-import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from "./Charts";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Repos = () => {
   const { repos } = GitHubCustomHook();
   console.log(repos);
+
   return (
     <>
       <div
