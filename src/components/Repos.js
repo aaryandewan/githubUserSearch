@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Repos = () => {
   const { repos } = GitHubCustomHook();
-  console.log(repos);
 
   return (
     <>
