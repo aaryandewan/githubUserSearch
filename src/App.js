@@ -3,7 +3,7 @@ import { useEffect, useState, useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { FaRedditAlien } from "react-icons/fa";
-
+import Search from "./components/Search";
 import Graph from "./components/graphs";
 import Repos from "./components/Repos";
 import Info from "./components/Info";
@@ -13,6 +13,7 @@ function App() {
   const ab = GitHubCustomHook();
   return (
     <div>
+      <Search />
       <Info />
       <Graph />
       <Repos />
