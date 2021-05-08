@@ -12,12 +12,15 @@ import { GitHubCustomHook } from "./context/context";
 function App() {
   const ab = GitHubCustomHook();
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "#2b2e4a",
+      }}
+    >
       <Search />
       <Info />
       <Graph />
       <Repos />
-      <h1>Hello</h1>
     </div>
   );
 }

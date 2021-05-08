@@ -11,14 +11,18 @@ const Repos = () => {
     <>
       <div
         className="container overflow-hidden"
-        style={{ backgroundColor: "gray" }}
+        style={{ backgroundColor: "#2b2e4a" }}
       >
         <div className="row justify-content-around">
           {repos.map((repo) => {
             return (
               <div
-                className="card text-white bg-dark col-lg-4 col-sm-12 gy-4"
-                style={{ maxWidth: "18rem", minHeight: "14rem" }}
+                className="card text-white col-lg-4 col-sm-12 gy-4"
+                style={{
+                  maxWidth: "18rem",
+                  minHeight: "14rem",
+                  backgroundColor: "#903749",
+                }}
               >
                 <div className="card-header">
                   <div className="row justify-content-around">
