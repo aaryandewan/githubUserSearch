@@ -9,7 +9,7 @@ const rootUrl = "https://api.github.com";
 const GithubContext = React.createContext();
 
 export const GithubProvider = ({ children }) => {
-  const [githubUserName, setGithubUserName] = useState("aaryandewan");
+  const [githubUserName, setGithubUserName] = useState("shiffman");
 
   const [githubUser, setGithubUser] = useState(mockUser);
   const [repos, setRepos] = useState(mockRepos);
