@@ -17,7 +17,6 @@ export const GithubProvider = ({ children }) => {
 
   const fetchData = async () => {
     console.log(
-      "PANCHODDD",
       `${rootUrl}/${githubUserName}`,
       `${rootUrl}/${githubUserName}/repos`
     );
