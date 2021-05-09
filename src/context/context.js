@@ -26,7 +26,7 @@ export const GithubProvider = ({ children }) => {
     const response2 = await fetch(`${rootUrl}/users/${githubUserName}/repos`);
     const data2 = await response2.json();
     setRepos(data2);
-    console.log("PANCHODDD");
+ 
     console.log(githubUser);
     console.log(repos);
   };
